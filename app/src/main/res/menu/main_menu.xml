@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu1"
+        android:title="台风列表"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/menu2"
+        android:title="更新台风信息"
+        android:icon="@drawable/ic_baseline_autorenew_24"
+        app:showAsAction="always"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/menu3"
+        android:title="加入测试台风样例"
+        app:showAsAction="never"
+        android:orderInCategory="4"
+        >
+    </item>
+    <item
+        android:id="@+id/menu4"
+        android:title="台风防御指南"
+        app:showAsAction=""
+        android:orderInCategory="3"
+        >
+    </item>
+
+
+</menu>
